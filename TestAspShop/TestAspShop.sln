@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspShop", "TestAspShop\TestAspShop.csproj", "{E6242254-31B9-44A7-B70E-354E31F99AEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspShop.WebUI", "TestAspShop\TestAspShop.WebUI.csproj", "{E6242254-31B9-44A7-B70E-354E31F99AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspShop.Domain", "TestAspShop.Domain\TestAspShop.Domain.csproj", "{5A5220AB-D1FB-463B-84DC-082BA8F7A694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspShop.UnitTests", "TestAspShop.UnitTests\TestAspShop.UnitTests.csproj", "{D35EDE0E-BDAB-4747-BA72-C645AA74739E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{E6242254-31B9-44A7-B70E-354E31F99AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6242254-31B9-44A7-B70E-354E31F99AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6242254-31B9-44A7-B70E-354E31F99AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5220AB-D1FB-463B-84DC-082BA8F7A694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5220AB-D1FB-463B-84DC-082BA8F7A694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5220AB-D1FB-463B-84DC-082BA8F7A694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5220AB-D1FB-463B-84DC-082BA8F7A694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35EDE0E-BDAB-4747-BA72-C645AA74739E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35EDE0E-BDAB-4747-BA72-C645AA74739E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35EDE0E-BDAB-4747-BA72-C645AA74739E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35EDE0E-BDAB-4747-BA72-C645AA74739E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

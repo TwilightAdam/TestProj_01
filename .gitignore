@@ -1,3 +1,11 @@
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -42,3 +50,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 TestAspShop/TestAspShop/bin/Microsoft.Web.Infrastructure.dll
+TestAspShop/TestAspShop/obj/Debug/TestAspShop.dll
